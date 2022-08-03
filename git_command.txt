@@ -1,3 +1,6 @@
+视频地址：https://www.bilibili.com/video/BV1vy4y1s7k6?p=1&vd_source=ffc935d7e1b5bbef786d8450078dc072
+
+
 第一章 Git概述
 git官网https://git-scm.com/  目前最新版本是2.37.1
 1） 版本控制
