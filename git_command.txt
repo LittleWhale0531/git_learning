@@ -1,0 +1,31 @@
+第一章 Git概述
+git官网https://git-scm.com/  目前最新版本是2.37.1
+1） 版本控制
+Git是分布式版本控制系统，可以记录文件内容变化；最重要的是可以记录文件修改历史，用户能查看历史版本，方便版本切换。
+2） Git工作机制
+工作区：代码存放的磁盘目录
+暂存区：工作区的代码添加到暂存区（临时存储，还没有历史版本，可以删掉）
+本地库：历史版本生成，版本是改不掉了
+示意图：(工作区)-git add ->(暂存区）-git commit -m ''->(本地库)
+3） git和代码托管中心
+代码托管中心是基于网络服务器的远程代码仓库，一般简单称为远程库
+局域网：GitLab
+互联网：GitHub、Gitee
+
+第三章 Git常用命令
+
+命令名称			作用
+git config --global user.name 	用户名设置用户签名
+git config --global user.email 	邮箱设置用户签名
+git init			初始化本地库
+git status			查看本地库状态
+git add 			文件名添加到暂存区
+git commit -m "日志信息" 	文件名添加到本地库
+git reflog查看历史版本		git reset --hard 版本号版本穿梭
+
+1）设置用户签名
+git config --global user.name 用户名
+git config --global user.email 邮箱
+注意 
+Git首次安装必须设置用户签名，否则代码无法提交
+这里的设置用户签名和将来登录GitHub（或其他代码托管中心）的账号没有有人关系
