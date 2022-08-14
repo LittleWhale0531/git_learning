@@ -29,3 +29,6 @@ git config --global user.email 邮箱
 注意 
 Git首次安装必须设置用户签名，否则代码无法提交
 这里的设置用户签名和将来登录GitHub（或其他代码托管中心）的账号没有有人关系
+
+20220814 13:42 on branch testing 
+testing merge conflict
