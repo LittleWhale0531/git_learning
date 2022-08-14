@@ -59,12 +59,12 @@ testing merge conflict
 
 第五章 Git团队协作机制
 5.1 团队内协作
-1)git pull 
-2)git push 
-3)git clone 
+1）git push 把代码从本地库推送到代码托管中心的远程库 ，协作者push时需要获得权限
+2）git clone 把代码从远程库克隆到本地库
+3）git pull 把远程库中的代码拉取到本地库，并更新本地库代码 
 5.2 跨团队协作
-1)fork： A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
-2)pull request
+1）fork A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
+2）pull request 把代码从其他远程库拉到自己的远程库，需要审核和merge
 
 第六章 GitHub操作
 远程仓库操作
