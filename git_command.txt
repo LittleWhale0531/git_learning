@@ -39,5 +39,4 @@ git log 查看版本详细信息
 
 3)版本穿梭
 git reset --hard 版本号
-git reset --soft 版本号
-
+git reset --soft 版本号 --用于测试
