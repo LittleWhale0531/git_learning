@@ -45,9 +45,9 @@ git reset --hard 版本号
 git reset --soft 版本号
 ```
 git reset中的hard与soft
- git reset --hard的作用是代码强制回溯到某节点，对于当前节点->回溯节点中间已commit的内容就会全部消失，而git reset --soft模式下与hard模式会有所不同，他会保存当前节点->回溯节点之间已保存的内容。
- --hard场景：1.当我们发现提交的某个commit思路不正确，或与业务有很大的出入时，我们此时可以选择使用–hard去回退版本(–hard)。
- --soft场景：1.当我们不小心把还没有添加完毕的功能commit提交上去时，这个时候我们可以使用–soft去回退我们误提交的commit，完成此功能后，在重新提交commit。
+* git reset --hard 作用是代码强制回溯到某节点，对于当前节点->回溯节点中间已commit的内容就会全部消失，而git reset --soft 模式下与hard模式会有所不同，他会保存当前节点->回溯节点之间已保存的内容。
+* --hard场景：1.当我们发现提交的某个commit思路不正确，或与业务有很大的出入时，我们此时可以选择使用–hard去回退版本(–hard)。
+* --soft场景：1.当我们不小心把还没有添加完毕的功能commit提交上去时，这个时候我们可以使用–soft去回退我们误提交的commit，完成此功能后，在重新提交commit。
 https://blog.csdn.net/liu19721018/article/details/124123527
 
 # 第四章 Git分支操作
